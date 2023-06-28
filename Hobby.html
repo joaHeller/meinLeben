@@ -4,15 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hobby</title>
-    <link rel="stylesheet" href="hobby.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrapper">
       <header>
         <div class="karate">
-          <h2>Karate</h2>
+          <h1>Karate</h1>
         </div>
       </header>
+      
+    <div class="lebennav">
+      <div class="beginn">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Leben.html">Leben</a></li>
+            <li><a href="fam.html">Familie & Freunde</a></li>
+            <li><a href="Hobby.html">Hobby</a></li>
+            <li><a href="Ferien.html">Ferien</a></li>
+            <li><a href="lieb.html">Lieblings Dinge</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <h2>Gürtelfarben</h2>
+      <img src="data:image/png;base64,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" 
+      alt="Gürtelrheinenfolge" height="243" width="452">
+      <p>
+        Zurzeit befinde ich mich beim letzten Braun gürtel und kann nächstes Jahr im Januar den schwarzen Gürtel machen.
+      </p>
+
+
     </div>
   </body>
 </html>

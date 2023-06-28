@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Formular</h1>
+        </header>
+
+        <form action="mailto:joa.heller@gmx.net" method="POST" enctype="text/plain">
+            <label for="geschlecht">Geschlecht:</label><br>
+            <input type="radio" name="geschlecht" value="männlich">Männlich<br>
+            <input type="radio" name="geschlecht" value="weiblich">Weiblich<br>
+            <input type="radio" name="geschlecht" value="anderes">Anderes<br><br>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="vorname">Vorname:</label><br>
+            <input type="text" id="vorname" name="vorname" required><br><br>
+
+            <label for="email">E-Mail-Adresse:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="telefon">Telefonnummer:</label><br>
+            <input type="tel" id="telefon" name="telefon" required><br><br>
+
+            <input type="submit" value="Formular abschicken">
+        </form>
+    </div>
+</body>
+
+</html>
